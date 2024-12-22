@@ -1,0 +1,124 @@
+Folder PATH listing for volume Dev
+Volume serial number is FAC9-C885
+E:.
+¦   structure.txt
+¦   
++---project
+    +---backend
+    ¦   ¦   .env
+    ¦   ¦   index.js
+    ¦   ¦   package-lock.json
+    ¦   ¦   package.json
+    ¦   ¦   swagger.js
+    ¦   ¦   
+    ¦   +---config
+    ¦   ¦       database.js
+    ¦   ¦       email.js
+    ¦   ¦       
+    ¦   +---controllers
+    ¦   ¦       authController.js
+    ¦   ¦       communityController.js
+    ¦   ¦       metricsController.js
+    ¦   ¦       notificationController.js
+    ¦   ¦       progressController.js
+    ¦   ¦       workoutController.js
+    ¦   ¦       workoutPlanController.js
+    ¦   ¦       
+    ¦   +---middleware
+    ¦   ¦       auth.js
+    ¦   ¦       errorHandler.js
+    ¦   ¦       upload.js
+    ¦   ¦       validation.js
+    ¦   ¦       
+    ¦   +---models
+    ¦   ¦       Notification.js
+    ¦   ¦       Post.js
+    ¦   ¦       Progress.js
+    ¦   ¦       ProgressTracker.js
+    ¦   ¦       User.js
+    ¦   ¦       Workout.js
+    ¦   ¦       WorkoutPlan.js
+    ¦   ¦       
+    ¦   +---routes
+    ¦   ¦       auth.js
+    ¦   ¦       community.js
+    ¦   ¦       metrics.js
+    ¦   ¦       progress.js
+    ¦   ¦       workout.js
+    ¦   ¦       
+    ¦   +---services
+    ¦   ¦       AchievementService.js
+    ¦   ¦       NotificationService.js
+    ¦   ¦       WebSocketService.js
+    ¦   ¦       
+    ¦   +---tests
+    ¦   ¦       auth.test.js
+    ¦   ¦       metrics.test.js
+    ¦   ¦       setup.js
+    ¦   ¦       
+    ¦   +---utils
+    ¦           calculations.js
+    ¦           emailService.js
+    ¦           validators.js
+    ¦           
+    +---frontend
+        ¦   .gitignore
+        ¦   eslint.config.js
+        ¦   index.html
+        ¦   package-lock.json
+        ¦   package.json
+        ¦   postcss.config.js
+        ¦   README.md
+        ¦   tailwind.config.js
+        ¦   tsconfig.app.json
+        ¦   tsconfig.json
+        ¦   tsconfig.node.json
+        ¦   vite.config.ts
+        ¦   
+        +---public
+        ¦       vite.svg
+        ¦       
+        +---src
+            ¦   App.tsx
+            ¦   index.css
+            ¦   main.tsx
+            ¦   vite-env.d.ts
+            ¦   
+            +---components
+            ¦   ¦   AIAssistant.tsx
+            ¦   ¦   Auth.tsx
+            ¦   ¦   BMICalculator.tsx
+            ¦   ¦   Community.tsx
+            ¦   ¦   DietPlans.tsx
+            ¦   ¦   FAQs.tsx
+            ¦   ¦   FitnessMetricsForm.tsx
+            ¦   ¦   FitnessResults.tsx
+            ¦   ¦   HomePage.tsx
+            ¦   ¦   Leaderboard.tsx
+            ¦   ¦   LoadingProgress.tsx
+            ¦   ¦   ProgressChart.tsx
+            ¦   ¦   QuickActions.tsx
+            ¦   ¦   ScheduleWorkout.tsx
+            ¦   ¦   Settings.tsx
+            ¦   ¦   SubscriptionPlans.tsx
+            ¦   ¦   SuccessStories.tsx
+            ¦   ¦   WorkoutPlans.tsx
+            ¦   ¦   
+            ¦   +---dashboard
+            ¦   ¦       Dashboard.tsx
+            ¦   ¦       MetricsOverview.tsx
+            ¦   ¦       NutritionPlan.tsx
+            ¦   ¦       
+            ¦   +---layout
+            ¦           Header.tsx
+            ¦           
+            +---types
+            ¦       fitness.ts
+            ¦       user.ts
+            ¦       
+            +---utils
+                    api.ts
+                    constants.ts
+                    fitnessCalculator.ts
+                    types.ts
+                    
